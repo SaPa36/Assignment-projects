@@ -1,0 +1,51 @@
+@media screen and (max-width: 576px) {
+    header{
+        padding: 0px;
+        margin: 0;
+    }
+    nav,
+    nav > ul,
+    .popular{
+        flex-direction: column;
+    }
+    
+    .banner-container{
+        height: 500px;
+    width: 90%;
+    background-size: cover;  /* Ensures the image covers the whole div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    }
+    .banner-title{
+        padding: 10px;
+    }
+
+    .banner-frame{
+        padding: 10px;
+        margin-left: 10px;
+        width: 95%;
+        display: inline-block;
+    }
+    .btn-secondary{
+        width: 250px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .btn-primary{
+        width: 250px;
+        height: 50px;
+        
+    }
+
+    
+
+    .popular-content{
+        width: 90%;
+        margin-right: 5px;
+        
+    }
+    .popular-img img{
+        width: 90%;
+    }
+}
